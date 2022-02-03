@@ -1,0 +1,64 @@
+.paralax {
+    background: linear-gradient(90deg, rgba(24, 89, 245, 0.26) 30.65%, rgba(24, 89, 245, 0.08) 69.35%), url(../img/IMG_1890\ 1.png);
+    height: 325px;
+}
+
+.corpoclinico {
+    background: url(../img/forma2\ 3.png) no-repeat right top scroll;
+}
+
+.corpoclinico__conteudo {
+    text-align: center;
+    margin: 104px 0 0 0;
+}
+
+.corpoclinico__desc {
+    color: #1859F5;
+    text-transform: uppercase;
+}
+
+.corpoclinico__conteudo h4 {
+    color: #132B62;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 104px;
+}
+
+.corpoclinico__medicos ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.corpoclinico__medicos li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 241px;
+    height: 393px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+}
+
+.corpoclinico__medicos li img {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 480px) {
+    .paralax {
+        background: linear-gradient(90deg, rgba(24, 89, 245, 0.26) 30.65%, rgba(24, 89, 245, 0.08) 69.35%), url(../img/IMG_1890\ 1.png);
+        height: 325px;
+    }
+    .corpoclinico__medicos ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    .corpoclinico__medicos li {
+        padding-bottom: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}

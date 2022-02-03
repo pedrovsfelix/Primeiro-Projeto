@@ -1,0 +1,43 @@
+.footer__grad {
+    display: flex;
+    height: 20px;
+    background: linear-gradient(90deg, #1859F5 0.14%, #44DEB5 100%);
+}
+
+.footer__info {
+    background: #132B62;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.footer__end p {
+    font-size: 18px;
+    text-align: center;
+    padding: 28px 0;
+    font-weight: 700;
+    color: #fff;
+}
+
+.mapouter {
+    margin-bottom: 28px;
+}
+
+@media (max-width: 480px) {
+    .footer__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .gmap_canvas {
+        width: 100vw;
+    }
+}

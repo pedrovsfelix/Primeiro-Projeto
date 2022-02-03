@@ -1,0 +1,49 @@
+.perguntasf__titulo {
+    margin: 2rem;
+    text-align: center;
+}
+
+.perguntasf__titulo h5 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.perguntasf__atendimento {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 81px;
+}
+
+.perguntasf__atendimento ul li {
+    border-bottom: 1px solid #364E85;
+}
+
+.perguntasf__atendimento ul li p {
+    padding: 25px 0 18px 0;
+    color: #132B62;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.perguntas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 480px) {
+    .perguntasf {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+    .perguntas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
